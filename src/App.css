@@ -1,0 +1,148 @@
+ /* @import url('https://fonts.googleapis.com/css?family=Lato:200,400|Playfair+Display'); */
+ 
+.App {
+  width: 70%;
+  margin: auto;
+}
+.card {
+  margin: auto;
+}
+.heading  {
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 20px;
+  margin-bottom: 40px; */
+  margin: auto;
+ 
+}
+.heading h1 {
+  display: flex;
+  width: 55%;
+  justify-content: center;
+  font-weight: 600;
+  margin: auto;
+margin-bottom: 10px;
+}
+.heading p {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.categoryfilter {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 30px; */
+  margin-top: 30px;
+  margin-bottom: 35px;
+  width: 100%;
+}
+.categoryfilter .left {
+width: 60%;
+display: flex;
+justify-content: flex-start;
+
+
+
+}
+.categoryfilter .left button{
+margin-right: 20px;
+
+}
+.categoryfilter .right_div {
+display: flex;
+justify-content: flex-end;
+width: 40%;
+
+}
+
+.categoryfilter button {
+border-radius: 20px;
+width: 100px;
+font-weight: 500;
+}
+
+.Showmore {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 20px;
+}
+.Showmore button {
+  width: 120px;
+  border-radius: 20px;
+}
+/* .categoryfilter .right {
+width: 40%;
+
+} */
+/* .left button {
+  margin: auto;
+ 
+}
+.right button {
+  margin: auto;
+ 
+} */
+.box_icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.display_flex{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+}
+/* .display_flex p {
+  display: flex;
+  font-size: 15px;
+} */
+.pricenumber {
+  color: blue;
+}
+.Showmore_btn {
+ 
+  border-radius: 20px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+
+}
+.Showmore_btn:hover {
+  border: 2px solid grey;
+}
+.card {
+  /* margin:5px; */
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: fit-content;
+  /* width: 60%; */
+  height:25vh ;
+}
+.card-title {
+  font-size: 16px;
+  /* margin: 10px; */
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.btn-bar {
+  background-color: F6F1E9;
+  border: none;
+  font-weight: 400;
+  padding: 7px;
+}
+ .active {
+  background-color: blue;
+ color: white;
+}
