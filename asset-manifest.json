@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/karan0207/HotelListingweb.git/static/css/main.c2fc8a98.css",
-    "main.js": "/karan0207/HotelListingweb.git/static/js/main.98a1e752.js",
-    "index.html": "/karan0207/HotelListingweb.git/index.html",
-    "main.c2fc8a98.css.map": "/karan0207/HotelListingweb.git/static/css/main.c2fc8a98.css.map",
-    "main.98a1e752.js.map": "/karan0207/HotelListingweb.git/static/js/main.98a1e752.js.map"
+    "main.css": "/HotelListingweb/static/css/main.c2fc8a98.css",
+    "main.js": "/HotelListingweb/static/js/main.98a1e752.js",
+    "index.html": "/HotelListingweb/index.html",
+    "main.c2fc8a98.css.map": "/HotelListingweb/static/css/main.c2fc8a98.css.map",
+    "main.98a1e752.js.map": "/HotelListingweb/static/js/main.98a1e752.js.map"
   },
   "entrypoints": [
     "static/css/main.c2fc8a98.css",
