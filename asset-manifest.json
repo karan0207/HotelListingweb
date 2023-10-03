@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/karan0207/HotelListingweb.git/static/css/main.c2fc8a98.css",
+    "main.js": "/karan0207/HotelListingweb.git/static/js/main.4a66e6aa.js",
+    "index.html": "/karan0207/HotelListingweb.git/index.html",
+    "main.c2fc8a98.css.map": "/karan0207/HotelListingweb.git/static/css/main.c2fc8a98.css.map",
+    "main.4a66e6aa.js.map": "/karan0207/HotelListingweb.git/static/js/main.4a66e6aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2fc8a98.css",
+    "static/js/main.4a66e6aa.js"
+  ]
+}
