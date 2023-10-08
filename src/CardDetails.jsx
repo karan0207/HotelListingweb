@@ -50,7 +50,7 @@ const CardDetails = () => {
           </div>
         </div>
         <p> <span className='pricenumber'>{selectedProperty.Price}</span>/month</p>
-          <button onClick={()=>{navigate(-1)}></button>
+          <button onClick={()=>{navigate(-1)}>Go back</button>
 
       </div>
     </div>
