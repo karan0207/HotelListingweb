@@ -1,12 +1,13 @@
 // CardDetails.jsx
 
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams,useNavigate } from 'react-router-dom';
 import Data from './component/data';
 import './App.css';
 
 const CardDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const selectedProperty = Data.find((property) => property.id === id);
 
   if (!selectedProperty) {
@@ -49,7 +50,7 @@ const CardDetails = () => {
           </div>
         </div>
         <p> <span className='pricenumber'>{selectedProperty.Price}</span>/month</p>
-
+          <button onClick={()=>{navigate(-1)}></button>
 
       </div>
     </div>
